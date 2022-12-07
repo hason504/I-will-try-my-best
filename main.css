@@ -1,0 +1,26 @@
+h1 
+{
+    color: red;
+    font-size: 30px;
+}
+
+#second-heading
+{
+    color: green;
+    font-size: 20px;
+}
+
+.third-heading
+{
+    color: green;
+    font-size: 20px;
+}
+
+:root
+{
+    --text-color: violet;
+}
+
+h1{
+    color: var(--text-color);
+}
